@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-REPO_RAW="https://raw.githubusercontent.com/joejosue/ragnarok-sound-claude-code/main"
+REPO_RAW="https://raw.githubusercontent.com/0xNasa/ragnarok-sound-claude-code/main"
 SOUNDS_DIR="$HOME/.claude/sounds"
 HOOKS_DIR="$HOME/.claude/hooks"
 COMMANDS_DIR="$HOME/.claude/commands"
@@ -81,7 +81,7 @@ Run these checks in order:
 
 If anything is missing, run the installer:
 ```
-curl -sSL https://raw.githubusercontent.com/joejosue/ragnarok-sound-claude-code/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/0xNasa/ragnarok-sound-claude-code/main/install.sh | bash
 ```
 
 Then confirm everything is set up correctly and tell the user.

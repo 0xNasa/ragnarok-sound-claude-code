@@ -11,7 +11,7 @@ Inspired by the popular [WoW "Work, Work" orc hook](https://x.com/JorgeCastilloP
 One command:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/joejosue/ragnarok-sound-claude-code/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/0xNasa/ragnarok-sound-claude-code/main/install.sh | bash
 ```
 
 That's it. Open a new Claude Code session and complete any task.
@@ -24,7 +24,7 @@ Once installed, you have a `/ro-levelup` slash command available globally. Run i
 
 Alternatively, just tell your agent:
 
-> Install the Ragnarok level-up sound hook from github.com/joejosue/ragnarok-sound-claude-code
+> Install the Ragnarok level-up sound hook from github.com/0xNasa/ragnarok-sound-claude-code
 
 ---
 

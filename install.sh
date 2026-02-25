@@ -52,7 +52,8 @@ except (FileNotFoundError, json.JSONDecodeError):
 
 settings.setdefault("hooks", {})
 
-new_hook = {"hooks": [{"type": "command", "command": "~/.claude/hooks/ragnarok-levelup.sh", "async": True}]}
+hook_command = os.path.expanduser("~/.claude/hooks/ragnarok-levelup.sh")
+new_hook = {"hooks": [{"type": "command", "command": hook_command, "async": True}]}
 
 already_installed = any(
     any("ragnarok-levelup.sh" in h.get("command", "") for h in entry.get("hooks", []))
